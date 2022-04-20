@@ -1,0 +1,100 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+:root {
+    --main-color: #ffed08;
+    --black: #13131a;
+    --bg: #010103;
+    --border: .1rem solid rgba(255, 255, 255, .3);
+    --grey: #c6c4c8;
+    --blue: #00b2f4;
+    --border--red: #f83546;
+}
+
+* {
+    font-family: 'Roboto' , sans-serif;
+    margin: 0; padding: 0%;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    /*text-transform: capitalize;*/
+    transition: .2s linear;
+}
+
+.main {
+    margin: auto;
+    width: 80%;
+    height: 950px;
+    background: green;
+}
+
+.inicio {
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: var(--border);
+    position: fixed;
+    margin: auto;
+    height: 100px;
+    width: 80%;
+}
+
+.inicio .links a {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: var(--blue);
+    justify-content: left;
+}
+
+.inicio .links a:hover {
+    color: #010103;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.provincias {
+    margin: auto;
+    height: 850px;
+    padding-top: 110px;
+    padding-left: 5px;
+    background: var(--grey);
+    border: 2px solid var(--border--red);
+}
+
+.provincias h2 {
+    padding-top: 30px;
+    text-align: center;
+    color: var(--border--red);
+}
+
+.provincias h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+
+.provincias img  {    
+    width: 300px;
+    height: 260px;
+}
+
+.provincias .img {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: var(--main-color);
+    text-align: center;
+}
+
+.p_footer {
+    padding: 3rem;
+}
